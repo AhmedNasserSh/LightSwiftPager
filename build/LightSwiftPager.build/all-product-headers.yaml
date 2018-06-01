@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ahmed/Desktop/Projects/LightSwiftPager/build/Debug-iphonesimulator/LightSwiftPager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "LightSwiftPager-Swift.h",
+          'external-contents': "/Users/ahmed/Desktop/Projects/LightSwiftPager/build/Debug-iphonesimulator/LightSwiftPager.framework/Headers/LightSwiftPager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "LightSwiftPager.h",
+          'external-contents': "/Users/ahmed/Desktop/Projects/LightSwiftPager/LightSwiftPager/LightSwiftPager.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ahmed/Desktop/Projects/LightSwiftPager/build/Debug-iphonesimulator/LightSwiftPager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ahmed/Desktop/Projects/LightSwiftPager/build/LightSwiftPager.build/Debug-iphonesimulator/LightSwiftPager.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

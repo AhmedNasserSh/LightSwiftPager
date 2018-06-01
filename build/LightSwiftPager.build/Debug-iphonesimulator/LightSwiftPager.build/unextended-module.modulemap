@@ -1,0 +1,10 @@
+framework module LightSwiftPager {
+  umbrella header "LightSwiftPager.h"
+
+  export *
+  module * { export * }
+}
+
+module LightSwiftPager.__Swift {
+    exclude header "LightSwiftPager-Swift.h"
+}

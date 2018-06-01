@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E20A2E7820C17239001E3955 /* LightSwiftPager.h in Headers */ = {isa = PBXBuildFile; fileRef = E20A2E7620C17239001E3955 /* LightSwiftPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20A2E8120C17271001E3955 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E7E20C17270001E3955 /* TapButton.swift */; };
+		E20A2E8220C17271001E3955 /* EasyPagerViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E7F20C17270001E3955 /* EasyPagerViewContoller.swift */; };
+		E20A2E8320C17271001E3955 /* TapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E8020C17271001E3955 /* TapItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E20A2E7320C17239001E3955 /* LightSwiftPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LightSwiftPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20A2E7620C17239001E3955 /* LightSwiftPager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightSwiftPager.h; sourceTree = "<group>"; };
 		E20A2E7720C17239001E3955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20A2E7E20C17270001E3955 /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
+		E20A2E7F20C17270001E3955 /* EasyPagerViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyPagerViewContoller.swift; sourceTree = "<group>"; };
+		E20A2E8020C17271001E3955 /* TapItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				E20A2E7620C17239001E3955 /* LightSwiftPager.h */,
+				E20A2E7F20C17270001E3955 /* EasyPagerViewContoller.swift */,
+				E20A2E7E20C17270001E3955 /* TapButton.swift */,
+				E20A2E8020C17271001E3955 /* TapItem.swift */,
 				E20A2E7720C17239001E3955 /* Info.plist */,
 			);
 			path = LightSwiftPager;
@@ -95,6 +104,7 @@
 				TargetAttributes = {
 					E20A2E7220C17239001E3955 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -130,6 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20A2E8320C17271001E3955 /* TapItem.swift in Sources */,
+				E20A2E8120C17271001E3955 /* TapButton.swift in Sources */,
+				E20A2E8220C17271001E3955 /* EasyPagerViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +272,7 @@
 		E20A2E7C20C17239001E3955 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LightSwiftPager.www.LightSwiftPager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +299,7 @@
 		E20A2E7D20C17239001E3955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
