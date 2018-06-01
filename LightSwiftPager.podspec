@@ -12,7 +12,7 @@ s.author = { "Ahmed Nasser" => "ahmed.nasser2310@gmail.com" }
 s.homepage = "https://github.com/AvaVaas/LightSwiftPager"
 s.source = { :git => "https://github.com/AvaVaas/LightSwiftPager.git", :tag => "#{s.version}"}
 s.frameworks = 'UIKit'
-s.source_files = "EasyiOSPager/*.{swift,.h}"
+s.source_files = "LightSwiftPager/*.{swift,.h}"
 s.swift_version = '4.0'
 
 end
