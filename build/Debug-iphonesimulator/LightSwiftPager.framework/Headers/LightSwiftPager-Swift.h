@@ -182,19 +182,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class EasyPagerViewContoller;
+@class LightPagerViewContoller;
 
-SWIFT_PROTOCOL("_TtP15LightSwiftPager17EasyPagerDelegate_")
-@protocol EasyPagerDelegate
+SWIFT_PROTOCOL("_TtP15LightSwiftPager18LightPagerDelegate_")
+@protocol LightPagerDelegate
 @optional
-- (void)didSelectTabWithTab:(EasyPagerViewContoller * _Nonnull)tab index:(NSInteger)index;
+- (void)didSelectTabWithTab:(LightPagerViewContoller * _Nonnull)tab index:(NSInteger)index;
 @end
 
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC15LightSwiftPager22EasyPagerViewContoller")
-@interface EasyPagerViewContoller : UIViewController <EasyPagerDelegate>
+SWIFT_CLASS("_TtC15LightSwiftPager23LightPagerViewContoller")
+@interface LightPagerViewContoller : UIViewController <LightPagerDelegate>
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

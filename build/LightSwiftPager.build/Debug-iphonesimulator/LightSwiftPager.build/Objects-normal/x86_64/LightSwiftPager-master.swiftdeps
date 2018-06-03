@@ -1,7 +1,7 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "2dc53bcf2b84cab1f8170926f623a643"
-build_time: [1527855857, 463955000]
+build_time: [1528022229, 480882000]
 inputs:
   "/Users/ahmed/Desktop/Projects/LightSwiftPager/LightSwiftPager/TapItem.swift": [1527678515, 0]
   "/Users/ahmed/Desktop/Projects/LightSwiftPager/LightSwiftPager/TapButton.swift": [1527667434, 0]
-  "/Users/ahmed/Desktop/Projects/LightSwiftPager/LightSwiftPager/EasyPagerViewContoller.swift": [1527854367, 0]
+  "/Users/ahmed/Desktop/Projects/LightSwiftPager/LightSwiftPager/EasyPagerViewContoller.swift": [1528022108, 0]
