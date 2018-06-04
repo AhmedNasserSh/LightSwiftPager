@@ -1,7 +1,7 @@
 # LightSwiftPager
 
 A   Light framework for creating Slideing viewcontrollers for ios 
-![Alt Text](https://giphy.com/gifs/aM98ApTjIK5iprKXII)
+![Alt Text](https://media.giphy.com/media/aM98ApTjIK5iprKXII/giphy.gif)
 ### Installing
 
 via CocoaPods
