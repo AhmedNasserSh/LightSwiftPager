@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TapButton: UIView {
+ class TapButton: UIView {
     let titleLabel = UILabel()
     private let image = UIImageView()
     private let stackView = UIView()

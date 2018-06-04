@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E20A2E7820C17239001E3955 /* LightSwiftPager.h in Headers */ = {isa = PBXBuildFile; fileRef = E20A2E7620C17239001E3955 /* LightSwiftPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20A2E8120C17271001E3955 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E7E20C17270001E3955 /* TapButton.swift */; };
-		E20A2E8220C17271001E3955 /* EasyPagerViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E7F20C17270001E3955 /* EasyPagerViewContoller.swift */; };
+		E20A2E8220C17271001E3955 /* LightPagerViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E7F20C17270001E3955 /* LightPagerViewContoller.swift */; };
 		E20A2E8320C17271001E3955 /* TapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A2E8020C17271001E3955 /* TapItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -18,7 +18,7 @@
 		E20A2E7620C17239001E3955 /* LightSwiftPager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightSwiftPager.h; sourceTree = "<group>"; };
 		E20A2E7720C17239001E3955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E20A2E7E20C17270001E3955 /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
-		E20A2E7F20C17270001E3955 /* EasyPagerViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyPagerViewContoller.swift; sourceTree = "<group>"; };
+		E20A2E7F20C17270001E3955 /* LightPagerViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightPagerViewContoller.swift; sourceTree = "<group>"; };
 		E20A2E8020C17271001E3955 /* TapItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				E20A2E7620C17239001E3955 /* LightSwiftPager.h */,
-				E20A2E7F20C17270001E3955 /* EasyPagerViewContoller.swift */,
+				E20A2E7F20C17270001E3955 /* LightPagerViewContoller.swift */,
 				E20A2E7E20C17270001E3955 /* TapButton.swift */,
 				E20A2E8020C17271001E3955 /* TapItem.swift */,
 				E20A2E7720C17239001E3955 /* Info.plist */,
@@ -142,7 +142,7 @@
 			files = (
 				E20A2E8320C17271001E3955 /* TapItem.swift in Sources */,
 				E20A2E8120C17271001E3955 /* TapButton.swift in Sources */,
-				E20A2E8220C17271001E3955 /* EasyPagerViewContoller.swift in Sources */,
+				E20A2E8220C17271001E3955 /* LightPagerViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

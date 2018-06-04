@@ -42,7 +42,6 @@ open  class LightPagerViewContoller :UIViewController,LightPagerDelegate,LightPa
         didSet {
             if tabs > 0 {
                 buttonWidth = (screenWidth / CGFloat(tabs) > 100 ) ? (screenWidth - 50) / CGFloat(tabs) :100
-                print( screenWidth - 50 / CGFloat(tabs) )
                 for index in 1...tabs {
                     let button = TapButton()
                     button.setItem(items![index - 1] )
