@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "LightSwiftPager-Swift.h",
+          'external-contents': "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Headers/LightSwiftPager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "LightSwiftPager-umbrella.h",
+          'external-contents': "/Users/ahmed/Desktop/Projects/Example/Pods/Target Support Files/LightSwiftPager/LightSwiftPager-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ahmed/Desktop/Projects/Example/build/Pods.build/Debug-iphonesimulator/LightSwiftPager.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/Pods_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Example-umbrella.h",
+          'external-contents': "/Users/ahmed/Desktop/Projects/Example/Pods/Target Support Files/Pods-Example/Pods-Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Example-Swift.h",
+          'external-contents': "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/Pods_Example.framework/Headers/Pods_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/Pods_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ahmed/Desktop/Projects/Example/build/Pods.build/Debug-iphonesimulator/Pods-Example.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

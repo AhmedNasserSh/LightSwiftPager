@@ -1,0 +1,24 @@
+{
+  "name": "EasyiOSPager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "summary": "an Easy way to create a pager for ios",
+  "requires_arc": true,
+  "version": "0.1.15",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahmed Nasser": "ahmed.nasser2310@gmail.com"
+  },
+  "homepage": "https://github.com/AvaVaas/EasyiOSPager",
+  "source": {
+    "git": "https://github.com/AvaVaas/EasyiOSPager.git",
+    "tag": "0.1.15"
+  },
+  "frameworks": "UIKit",
+  "source_files": "EasyiOSPager/*.{swift,.h}",
+  "swift_version": "4.0"
+}

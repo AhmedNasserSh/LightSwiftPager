@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/ahmed/Desktop/Projects/Example/build/Debug-iphoneos/LightSwiftPager/LightSwiftPager.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/ahmed/Desktop/Projects/Example/build/Pods.build/Debug-iphoneos/LightSwiftPager.build/unextended-module.modulemap',
+    }]
+  }]
+}

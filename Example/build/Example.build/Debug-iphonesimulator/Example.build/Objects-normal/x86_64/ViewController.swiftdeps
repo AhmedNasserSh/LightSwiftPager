@@ -1,0 +1,535 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "7Example14ViewControllerC"
+provides-member:
+- ["7Example14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "tapItems"
+- "titelColors"
+- "viewContollers"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- "Array"
+- "Bool"
+- "LightPagerViewContoller"
+- !private "StringLiteralType"
+- "TapItem"
+- "UIColor"
+- !private "UIImage"
+- "UIViewController"
+- "ViewController"
+- "_ColorLiteralType"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "TapItem"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", "UIViewController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "colors"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "reloadTaps"]
+- !private ["s7CVarArgP", "setIndicatorBaackGroundColor"]
+- !private ["s7CVarArgP", "setTapBackgroundColor"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "taps"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "views"]
+- !private ["s10CollectionP", "append"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "TapItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadTaps"]
+- !private ["s28CustomDebugStringConvertibleP", "setIndicatorBaackGroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "setTapBackgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "taps"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "views"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "TapItem"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", "UIViewController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "reloadTaps"]
+- !private ["s23CustomStringConvertibleP", "setIndicatorBaackGroundColor"]
+- !private ["s23CustomStringConvertibleP", "setTapBackgroundColor"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "taps"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "views"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "TapItem"]
+- !private ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", "UIViewController"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "colors"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "reloadTaps"]
+- !private ["s9EquatableP", "setIndicatorBaackGroundColor"]
+- !private ["s9EquatableP", "setTapBackgroundColor"]
+- !private ["s9EquatableP", "storyboard"]
+- !private ["s9EquatableP", "taps"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "views"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "TapItem"]
+- !private ["s8HashableP", "UIImage"]
+- ["s8HashableP", "UIViewController"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "colors"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "reloadTaps"]
+- !private ["s8HashableP", "setIndicatorBaackGroundColor"]
+- !private ["s8HashableP", "setTapBackgroundColor"]
+- !private ["s8HashableP", "storyboard"]
+- !private ["s8HashableP", "taps"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "views"]
+- ["15LightSwiftPager0aC10DataSourceP", "TapItem"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "UIImage"]
+- ["15LightSwiftPager0aC10DataSourceP", "UIViewController"]
+- ["15LightSwiftPager0aC10DataSourceP", ""]
+- !private ["15LightSwiftPager0aC10DataSourceP", "colors"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "didReceiveMemoryWarning"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "init"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "reloadTaps"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "setIndicatorBaackGroundColor"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "setTapBackgroundColor"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "storyboard"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "taps"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "viewDidLoad"]
+- !private ["15LightSwiftPager0aC10DataSourceP", "views"]
+- ["15LightSwiftPager0aC8DelegateP", "TapItem"]
+- !private ["15LightSwiftPager0aC8DelegateP", "UIImage"]
+- ["15LightSwiftPager0aC8DelegateP", "UIViewController"]
+- ["15LightSwiftPager0aC8DelegateP", ""]
+- !private ["15LightSwiftPager0aC8DelegateP", "colors"]
+- !private ["15LightSwiftPager0aC8DelegateP", "didReceiveMemoryWarning"]
+- !private ["15LightSwiftPager0aC8DelegateP", "init"]
+- !private ["15LightSwiftPager0aC8DelegateP", "reloadTaps"]
+- !private ["15LightSwiftPager0aC8DelegateP", "setIndicatorBaackGroundColor"]
+- !private ["15LightSwiftPager0aC8DelegateP", "setTapBackgroundColor"]
+- !private ["15LightSwiftPager0aC8DelegateP", "storyboard"]
+- !private ["15LightSwiftPager0aC8DelegateP", "taps"]
+- !private ["15LightSwiftPager0aC8DelegateP", "viewDidLoad"]
+- !private ["15LightSwiftPager0aC8DelegateP", "views"]
+- ["15LightSwiftPager0aC13ViewContollerC", "Bool"]
+- ["15LightSwiftPager0aC13ViewContollerC", "TapItem"]
+- ["15LightSwiftPager0aC13ViewContollerC", "UIColor"]
+- !private ["15LightSwiftPager0aC13ViewContollerC", "UIImage"]
+- ["15LightSwiftPager0aC13ViewContollerC", "UIViewController"]
+- ["15LightSwiftPager0aC13ViewContollerC", ""]
+- ["15LightSwiftPager0aC13ViewContollerC", "colors"]
+- ["15LightSwiftPager0aC13ViewContollerC", "didReceiveMemoryWarning"]
+- ["15LightSwiftPager0aC13ViewContollerC", "init"]
+- !private ["15LightSwiftPager0aC13ViewContollerC", "reloadTaps"]
+- !private ["15LightSwiftPager0aC13ViewContollerC", "setIndicatorBaackGroundColor"]
+- !private ["15LightSwiftPager0aC13ViewContollerC", "setTapBackgroundColor"]
+- !private ["15LightSwiftPager0aC13ViewContollerC", "storyboard"]
+- ["15LightSwiftPager0aC13ViewContollerC", "tapItems"]
+- ["15LightSwiftPager0aC13ViewContollerC", "taps"]
+- ["15LightSwiftPager0aC13ViewContollerC", "titelColors"]
+- ["15LightSwiftPager0aC13ViewContollerC", "viewContollers"]
+- ["15LightSwiftPager0aC13ViewContollerC", "viewDidLoad"]
+- ["15LightSwiftPager0aC13ViewContollerC", "viewWillAppear"]
+- ["15LightSwiftPager0aC13ViewContollerC", "views"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- ["s17MutableCollectionP", "init"]
+- ["So8NSCodingP", "TapItem"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", "UIViewController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "colors"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "reloadTaps"]
+- !private ["So8NSCodingP", "setIndicatorBaackGroundColor"]
+- !private ["So8NSCodingP", "setTapBackgroundColor"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "taps"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "views"]
+- ["So26NSExtensionRequestHandlingP", "TapItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "colors"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "reloadTaps"]
+- !private ["So26NSExtensionRequestHandlingP", "setIndicatorBaackGroundColor"]
+- !private ["So26NSExtensionRequestHandlingP", "setTapBackgroundColor"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "taps"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "views"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "TapItem"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "colors"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "reloadTaps"]
+- !private ["So8NSObjectC", "setIndicatorBaackGroundColor"]
+- !private ["So8NSObjectC", "setTapBackgroundColor"]
+- !private ["So8NSObjectC", "storyboard"]
+- ["So8NSObjectC", "tapItems"]
+- ["So8NSObjectC", "taps"]
+- ["So8NSObjectC", "titelColors"]
+- ["So8NSObjectC", "viewContollers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "views"]
+- ["So16NSObjectProtocolP", "TapItem"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", "UIViewController"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "colors"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "reloadTaps"]
+- !private ["So16NSObjectProtocolP", "setIndicatorBaackGroundColor"]
+- !private ["So16NSObjectProtocolP", "setTapBackgroundColor"]
+- !private ["So16NSObjectProtocolP", "storyboard"]
+- !private ["So16NSObjectProtocolP", "taps"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "views"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "append"]
+- ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["15LightSwiftPager7TapItemC", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So21UIAppearanceContainerP", "TapItem"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", "UIViewController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "colors"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "reloadTaps"]
+- !private ["So21UIAppearanceContainerP", "setIndicatorBaackGroundColor"]
+- !private ["So21UIAppearanceContainerP", "setTapBackgroundColor"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "taps"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "views"]
+- ["So18UIContentContainerP", "TapItem"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", "UIViewController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "colors"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "reloadTaps"]
+- !private ["So18UIContentContainerP", "setIndicatorBaackGroundColor"]
+- !private ["So18UIContentContainerP", "setTapBackgroundColor"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "taps"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "views"]
+- ["So18UIFocusEnvironmentP", "TapItem"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", "UIViewController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "colors"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "reloadTaps"]
+- !private ["So18UIFocusEnvironmentP", "setIndicatorBaackGroundColor"]
+- !private ["So18UIFocusEnvironmentP", "setTapBackgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "taps"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "views"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "TapItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "colors"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadTaps"]
+- !private ["So30UIPasteConfigurationSupportingP", "setIndicatorBaackGroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTapBackgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "taps"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "views"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "TapItem"]
+- ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "colors"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "reloadTaps"]
+- !private ["So11UIResponderC", "setIndicatorBaackGroundColor"]
+- !private ["So11UIResponderC", "setTapBackgroundColor"]
+- !private ["So11UIResponderC", "storyboard"]
+- ["So11UIResponderC", "tapItems"]
+- ["So11UIResponderC", "taps"]
+- ["So11UIResponderC", "titelColors"]
+- ["So11UIResponderC", "viewContollers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "views"]
+- ["So30UIResponderStandardEditActionsP", "TapItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "colors"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadTaps"]
+- !private ["So30UIResponderStandardEditActionsP", "setIndicatorBaackGroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "setTapBackgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "taps"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "views"]
+- ["So16UIStateRestoringP", "TapItem"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", "UIViewController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "colors"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "reloadTaps"]
+- !private ["So16UIStateRestoringP", "setIndicatorBaackGroundColor"]
+- !private ["So16UIStateRestoringP", "setTapBackgroundColor"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "taps"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "views"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- ["So18UITraitEnvironmentP", "TapItem"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", "UIViewController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "colors"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "reloadTaps"]
+- !private ["So18UITraitEnvironmentP", "setIndicatorBaackGroundColor"]
+- !private ["So18UITraitEnvironmentP", "setTapBackgroundColor"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "taps"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "views"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "TapItem"]
+- ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "colors"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "reloadTaps"]
+- !private ["So16UIViewControllerC", "setIndicatorBaackGroundColor"]
+- !private ["So16UIViewControllerC", "setTapBackgroundColor"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- ["So16UIViewControllerC", "tapItems"]
+- ["So16UIViewControllerC", "taps"]
+- ["So16UIViewControllerC", "titelColors"]
+- ["So16UIViewControllerC", "viewContollers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "views"]
+- ["7Example14ViewControllerC", "Bool"]
+- ["7Example14ViewControllerC", "TapItem"]
+- ["7Example14ViewControllerC", "UIColor"]
+- !private ["7Example14ViewControllerC", "UIImage"]
+- ["7Example14ViewControllerC", "UIViewController"]
+- ["7Example14ViewControllerC", "colors"]
+- ["7Example14ViewControllerC", "deinit"]
+- ["7Example14ViewControllerC", "didReceiveMemoryWarning"]
+- ["7Example14ViewControllerC", "init"]
+- !private ["7Example14ViewControllerC", "reloadTaps"]
+- !private ["7Example14ViewControllerC", "setIndicatorBaackGroundColor"]
+- !private ["7Example14ViewControllerC", "setTapBackgroundColor"]
+- !private ["7Example14ViewControllerC", "storyboard"]
+- ["7Example14ViewControllerC", "tapItems"]
+- ["7Example14ViewControllerC", "taps"]
+- ["7Example14ViewControllerC", "titelColors"]
+- ["7Example14ViewControllerC", "viewContollers"]
+- ["7Example14ViewControllerC", "viewDidLoad"]
+- ["7Example14ViewControllerC", "viewWillAppear"]
+- ["7Example14ViewControllerC", "views"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TapItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadTaps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setIndicatorBaackGroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTapBackgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "taps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "views"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "15LightSwiftPager0aC10DataSourceP"
+- "15LightSwiftPager0aC8DelegateP"
+- "15LightSwiftPager0aC13ViewContollerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "15LightSwiftPager7TapItemC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "7Example14ViewControllerC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Modules/LightSwiftPager.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Headers/LightSwiftPager-umbrella.h"
+- "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Headers/LightSwiftPager-Swift.h"
+- "/Users/ahmed/Desktop/Projects/Example/build/Debug-iphonesimulator/LightSwiftPager/LightSwiftPager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f9ebebb7b101ef894f86fdd44158739b"

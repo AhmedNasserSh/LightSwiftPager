@@ -1,0 +1,10 @@
+framework module EasyiOSPager {
+  umbrella header "EasyiOSPager-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module EasyiOSPager.__Swift {
+    exclude header "EasyiOSPager-Swift.h"
+}

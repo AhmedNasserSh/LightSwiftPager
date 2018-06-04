@@ -1,0 +1,16 @@
+PODS:
+  - LightSwiftPager (0.1.3)
+
+DEPENDENCIES:
+  - LightSwiftPager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LightSwiftPager
+
+SPEC CHECKSUMS:
+  LightSwiftPager: aac5aa5f5b3f914e0fde54a264f05e48bfb711f7
+
+PODFILE CHECKSUM: ac9c7aef4c49f6412ebf2f5dfcf201a748452ed9
+
+COCOAPODS: 1.5.2
