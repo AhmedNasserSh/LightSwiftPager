@@ -1,13 +1,13 @@
 # LightSwiftPager
 
-A simple  Light framework for creating Slideing viewcontrollers for ios 
+A   Light framework for creating Slideing viewcontrollers for ios 
 
 ### Installing
 
 via CocoaPods
 
 ```
-platform :ios, '8.0'
+platform :ios, '9.0'
 pod 'LightSwiftPager'
 use_frameworks!
 ```
@@ -19,6 +19,12 @@ Subclass LightPagerViewContoller  and implement data source methods in the subcl
 
 ```
 class ViewController: LightPagerViewContoller {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        taps.append(TapItem(title: "title"))
+        taps.append(TapItem( image: UIImage(named: "one")))
+        taps.append(TapItem( title: "title1",image: UIImage(named: "one")))
+    }
     override func viewWillAppear(_ animated: Bool) {
         reloadTaps()
     }
@@ -35,10 +41,14 @@ func viewContollers() ->[UIViewController]
 ```
 @objc optional func didSelectTab(tab :LightPagerViewContoller , index:Int)
 ```
-
+## Customization
+```
+setTapBackgroundColor(_ color:UIColor)
+setIndicatorBaackGroundColor(_ color:UIColor)
+```
 ## Authors
 
-* **Ahmed Nasser** - *Initial work* - [AvaVaas](https://github.com/AvaVaas)
+* **Ahmed Nasser** - [AvaVaas](https://github.com/AvaVaas)
 
 ## License
 
