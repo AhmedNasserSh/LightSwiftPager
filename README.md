@@ -1,6 +1,7 @@
 # LightSwiftPager
 
 A   Light framework for creating Slideing viewcontrollers for ios 
+<br />
 ![Alt Text](https://media.giphy.com/media/aM98ApTjIK5iprKXII/giphy.gif)
 ### Installing
 
@@ -16,6 +17,7 @@ use_frameworks!
 ## Usage
 
 Subclass LightPagerViewContoller  and implement data source methods in the subclass.
+<br />
 See example project for more details .
 
 ```
