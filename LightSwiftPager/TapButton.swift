@@ -65,6 +65,9 @@ class TapButton: UIView {
 
         }
     }
+    func setTitlteColor(_ color :UIColor){
+        self.titleLabel.textColor = color
+    }
     @objc private func didTap(_ sender :UITapGestureRecognizer)  {
         actionBlock!(self)
     }

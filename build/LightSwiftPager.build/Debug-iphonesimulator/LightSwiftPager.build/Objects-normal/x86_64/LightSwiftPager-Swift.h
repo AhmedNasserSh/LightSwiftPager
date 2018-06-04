@@ -182,6 +182,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class TapItem;
+@class UIViewController;
+@class UIColor;
+
+SWIFT_PROTOCOL("_TtP15LightSwiftPager20LightPagerDataSource_")
+@protocol LightPagerDataSource
+- (NSArray<TapItem *> * _Nonnull)tapItems SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<UIViewController *> * _Nonnull)viewContollers SWIFT_WARN_UNUSED_RESULT;
+@optional
+- (NSArray<UIColor *> * _Nonnull)titelColors SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class LightPagerViewContoller;
 
 SWIFT_PROTOCOL("_TtP15LightSwiftPager18LightPagerDelegate_")
@@ -194,8 +206,10 @@ SWIFT_PROTOCOL("_TtP15LightSwiftPager18LightPagerDelegate_")
 @class NSCoder;
 
 SWIFT_CLASS("_TtC15LightSwiftPager23LightPagerViewContoller")
-@interface LightPagerViewContoller : UIViewController <LightPagerDelegate>
+@interface LightPagerViewContoller : UIViewController <LightPagerDataSource, LightPagerDelegate>
 - (void)viewDidLoad;
+- (NSArray<TapItem *> * _Nonnull)tapItems SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<UIViewController *> * _Nonnull)viewContollers SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

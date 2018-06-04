@@ -6,7 +6,7 @@ s.ios.deployment_target = '9.0'
 s.name = "LightSwiftPager"
 s.summary = "an Easy way to create a pager for ios"
 s.requires_arc = true
-s.version = "0.1.2"
+s.version = "0.1.3"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Ahmed Nasser" => "ahmed.nasser2310@gmail.com" }
 s.homepage = "https://github.com/AvaVaas/LightSwiftPager"

@@ -12,9 +12,13 @@ import UIKit
  public protocol LightPagerDelegate {
     @objc optional func didSelectTab(tab :LightPagerViewContoller , index:Int)
 }
+ @objc
  public protocol LightPagerDataSource {
      func tapItems() ->[TapItem]
      func viewContollers() ->[UIViewController]
+    @objc optional func titelColors() -> [UIColor]
+
+    
 
 }
 open  class LightPagerViewContoller :UIViewController,LightPagerDelegate,LightPagerDataSource {
@@ -30,6 +34,7 @@ open  class LightPagerViewContoller :UIViewController,LightPagerDelegate,LightPa
             self.tabs = (items?.count)!
         }
     }
+    private var colors :[UIColor]?
     private var contollers :[UIViewController]?
     var delegate :LightPagerDelegate?
     var dataSource :LightPagerDataSource?
@@ -44,6 +49,13 @@ open  class LightPagerViewContoller :UIViewController,LightPagerDelegate,LightPa
                     button.widthAnchor.constraint(equalToConstant: buttonWidth).isActive = true
                     button.actionBlock = { button in
                         self.currentTap = index - 1
+                    }
+                    if colors != nil {
+                        if self.colors?.count != tabs {
+                            assertionFailure("titles colors must be equal to tabs count")
+                        }else {
+                            button.setTitlteColor(colors![index - 1])
+                        }
                     }
                     button.translatesAutoresizingMaskIntoConstraints = false
                     stackView.addArrangedSubview(button)
@@ -133,6 +145,7 @@ open  class LightPagerViewContoller :UIViewController,LightPagerDelegate,LightPa
     //Mark :reloading data
    open func reloadTaps() {
         self.contollers = dataSource?.viewContollers()
+        self.colors = dataSource?.titelColors?()
         self.items = dataSource?.tapItems()
     }
     //Mark : DataSource
