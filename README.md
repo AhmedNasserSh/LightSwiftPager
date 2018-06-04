@@ -38,7 +38,7 @@ func viewContollers() ->[UIViewController]
 
 ## Authors
 
-* **Ahmed Nasser** - *Initial work* - [PurpleBooth](https://github.com/AvaVaas)
+* **Ahmed Nasser** - *Initial work* - [AvaVaas](https://github.com/AvaVaas)
 
 ## License
 
