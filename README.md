@@ -44,7 +44,7 @@ func viewContollers() ->[UIViewController]
 ## Customization
 ```
 setTapBackgroundColor(_ color:UIColor)
-setIndicatorBaackGroundColor(_ color:UIColor)
+setIndicatorBackGroundColor(_ color:UIColor)
 ```
 ## Authors
 
