@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "9e56ef78446b9c39408d9c2365541866"
-build_time: [1527854658, 207910000]
-inputs:
-  "/Users/ahmed/Desktop/Projects/EasyiOSPager/EasyiOSPager/EasyPagerViewContoller.swift": [1527854367, 0]
-  "/Users/ahmed/Desktop/Projects/EasyiOSPager/EasyiOSPager/TapButton.swift": [1527667434, 0]
-  "/Users/ahmed/Desktop/Projects/EasyiOSPager/EasyiOSPager/TapItem.swift": [1527678515, 0]
